@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML easy</title>
+    <link rel="stylesheet" href="./tags.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!--style>
+        body{
+            color :red;
+            background: white;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="table_class">
+        <table border="3px">
+            <caption>Big companies</caption>
+            <colgroup>
+                <col style="background: black"/>
+                <col style="background: green"; span="2">
+                <col style="background: yellow"/>
+
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>company</th>
+                    <th>country</th>
+                    <th>headquaters</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>apple</td>
+                    <td>usa</td>
+                    <td>quang</td>
+                </tr>
+                <tr>
+                    <td>apple</td>
+                    <td colspan="2">usa</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <p> just a simple <br />
+            <a href="">link</a> in a paragraph
+        </p>
+        <form id="form_id">
+            <h1>
+                Fill on the From
+            </h1>
+            Name: <input name="name" type="text" /><br />
+            Age: <input max="99" min="1" name="age" step="1" type="number" value="18" /> <br />
+            Check Box:<input type="checkbox" name="terms" value="twincode_term" /> I accept the terms <br />
+            radio: <input type="radio" name="gender" value="male" checked />Male
+            <input type="radio" name="gender" value="female" />feMale <br />
+           <select name="gender">
+            <option selected="selected" value="male">male</option>
+            <option  value="female">female</option>
+            <option  value="undefined">undefined</option>
+
+           </select><br/>
+            email: <input type="email" name="yourmail" /> <br />
+            password : <input type="password" name="pass"/> <br />
+            color: <input type="color" name="yourcolor"/> <br/>
+            time: <input type="date" name="date"/> <br/>
+            week: <input type="week" name="yourweek"> <br/>
+            month: <input type="month" name="yourmonth"> <br/>
+            range: <input type="range" name="yourrange"/> <br/>
+            search: <input type="search" name="yoursearch"/> <br/>
+            file: <input type="file" name="yourfile"/> <br/>
+            textarea: <textarea cols="20" name="comment" rows="5">comment:</textarea>
+            <input type="submit" value="submit now!" />
+            <input type="reset">
+        </form>
+        <img src="./test_image.jpg" alt="abcxyz" height="200" width="330" />
+    </div>
+    <div>
+        <h1>Ordered list</h1>
+        <!-- ol: ordered list, ul : unordered list, li : list item-->
+        <ol start="10" type="a">
+            <li>CSS</li>
+            <li>JS</li>
+            <li> HTML</li>
+        </ol>
+        <h1>unOrdered list</h1>
+
+        <ul>
+            <li>CSS</li>
+            <li> HTML</li>
+            <li>JS</li>
+        </ul>
+        <p> a short demo paragraph</p>
+        <p> a short demo paragraph</p>
+        <span> a short demo paragraph</span>
+        <span> a short demo paragraph</span>
+
+        <p style="text-align: center">The <strong>align</strong> attribute </p>
+    </div>
+
+</body>
+
+</html>

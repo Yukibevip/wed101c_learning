@@ -1,0 +1,22 @@
+/* *{
+    
+    background: #000;
+    color: red;
+}*/
+/* div{ 
+    background-color: red;
+} */
+/* div,p,body{ 
+    color: red;
+    background-color: black;
+} */
+div p {
+    color: red;
+    
+}
+.table_class{
+    background-color: red;
+}
+#form_id{
+    background-color: red;
+}
